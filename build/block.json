@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/uncommon-fullw-header",
+  "version": "0.1.0",
+  "title": "Uncommon Fullw Header",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A block header that always takes up full width of the page with JS.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": "h2"
+    },
+    "layout": {
+      "type": "string",
+      "default": "fullw"
+    }
+  },
+  "textdomain": "uncommon-fullw-header",
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
