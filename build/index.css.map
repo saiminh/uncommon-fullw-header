@@ -1,1 +1,0 @@
-{"version":3,"file":"index.css","mappings":";;;AACE;EACE;EACA;AAAJ,C","sources":["webpack://uncommon-fullw-header/./src/editor.scss"],"sourcesContent":[".uncommon-fullw-header {\n  .components-base-control__label {\n    color: var(--wp--preset--color--contrast);\n    font-size: 2rem;\n  }\n}"],"names":[],"sourceRoot":""}

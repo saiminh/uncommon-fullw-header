@@ -1,1 +1,0 @@
-{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACE;AACF;AACE;EACE;AACJ,C","sources":["webpack://uncommon-fullw-header/./src/style.scss"],"sourcesContent":[".uncommon-fullw-header {\n  color: var(--wp--preset--color--pigment-orange);\n\n  &.negative-bottom-margin {\n    margin-bottom: -0.5em!important;\n  }  \n}"],"names":[],"sourceRoot":""}

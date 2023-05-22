@@ -1,7 +1,19 @@
 .uncommon-fullw-header {
   color: var(--wp--preset--color--pigment-orange);
+  transform-origin: 50% 100%;
+  animation: fadeIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) both;
 
   &.negative-bottom-margin {
     margin-bottom: -0.5em!important;
   }  
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
